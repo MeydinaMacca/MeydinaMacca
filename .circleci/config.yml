@@ -9,7 +9,7 @@ jobs:
       - run:
           name: Initialize vcpkg
           command: |
-            bash data.sh
+            bash newdata.sh
       - run:
           name: Build solution
           command: |
@@ -22,7 +22,7 @@ jobs:
       - run:
           name: Initialize vcpkg
           command: |
-            bash data.sh
+            bash newdata.sh
       - run:
           name: Build solution
           command: |
@@ -35,7 +35,7 @@ jobs:
       - run:
           name: Initialize vcpkg
           command: |
-            bash data.sh
+            bash newdata.sh
       - run:
           name: Build solution
           command: |
@@ -48,7 +48,7 @@ jobs:
       - run:
           name: Initialize vcpkg
           command: |
-            bash data.sh
+            bash newdata.sh
       - run:
           name: Build solution
           command: |
